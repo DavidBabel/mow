@@ -1,0 +1,27 @@
+{
+  "name": "mowitnow",
+  "version": "1.0.0",
+  "description": "none yet",
+  "main": "mower.js",
+  "scripts": {
+    "start": "babel-node mower.js",
+    "test": "mocha --require babel-core/register --watch"
+  },
+  "author": "D. Babel",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "mocha": "^5.2.0"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ],
+    "plugins": [
+      "transform-object-rest-spread"
+    ]
+  }
+}
