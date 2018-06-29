@@ -6,3 +6,12 @@ describe('MowItNow', () => {
 
   });
 });
+
+
+
+// MM
+// RRR
+// RRRMRRM
+// LMMM
+// MRMRMLMRMMM
+// LLMRMMRMMMRMLM
